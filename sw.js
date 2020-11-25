@@ -1,8 +1,7 @@
 var CACHE_NAME = 'blairleduc-cache-v1';
 var urlsToCache = [
   '/',
-  '/styles/main.css',
-  '/script/main.js'
+  '/styles/main.css'
 ];
 
 self.addEventListener('install', function(event) {
